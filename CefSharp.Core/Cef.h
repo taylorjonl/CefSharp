@@ -61,7 +61,7 @@ namespace CefSharp
             }
         }
 
-    internal:
+    public:
         static IDictionary<String^, Object^>^ GetBoundObjects()
         {
             return _boundObjects;
